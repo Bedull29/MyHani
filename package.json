@@ -3,10 +3,13 @@
   "version": "0.1.1",
   "type": "module",
   "private": true,
+  "homepage": "https://Bedull29.github.io/MyHani",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emotion/react": "^11.10.0",
@@ -30,6 +33,7 @@
     "@types/react-dom": "^18.0.8",
     "@types/react-slick": "^0.23.10",
     "@vitejs/plugin-react": "^2.2.0",
+    "gh-pages": "^6.3.0",
     "typescript": "^4.6.4",
     "vite": "^3.2.1"
   }

@@ -138,7 +138,8 @@ export function Component() {
                   color: "white",
                 }}
               >
-                Title
+                Happy Birthday <br />
+                My Hani
               </Typography>
             </Box>
             <Box

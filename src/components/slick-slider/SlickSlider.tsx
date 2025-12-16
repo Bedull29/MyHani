@@ -145,7 +145,7 @@ export default function SlickSlider({ data, genre }: SlickSliderProps) {
             spacing={2}
             direction="row"
             alignItems="center"
-            sx={{ mb: 2, pl: { xs: "30px", sm: "60px" } }}
+            sx={{ mb: 2, pl: { xs: "4%", md: "60px" } }}
           >
             <NetflixNavigationLink
               variant="h5"

@@ -213,7 +213,7 @@ export default function TopTrailer({ mediaType }: TopTrailerProps) {
                     variant="h2"
                     maxLine={2}
                     color="text.primary"
-                    sx={{ fontWeight: "bold", fontSize: "4rem" }}
+                    sx={{ fontWeight: "bold", fontSize: { xs: "2rem", md: "4rem" } }}
                   >
                     𝑩𝒆𝒂𝒖𝒕𝒊𝒇𝒖𝒍 𝑮𝒊𝒓𝒍 <br />
                     𝑰𝒏 𝑴𝒚 𝑳𝒊𝒇𝒆

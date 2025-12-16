@@ -49,7 +49,7 @@ const MainHeader = () => {
     <AppBar
       sx={{
         // px: "4%",
-        px: "60px",
+        px: { xs: "4%", md: "60px" },
         height: APP_BAR_HEIGHT,
         backgroundImage: "none",
         ...(isOffset

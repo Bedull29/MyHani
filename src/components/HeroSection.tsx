@@ -129,7 +129,7 @@ export default function TopTrailer({ mediaType }: TopTrailerProps) {
                       sources: [
                         {
                           type: "video/youtube",
-                          src: `https://www.youtube.com/watch?v=${detail.videos.results[0]?.key || "L_qiHdrxyYE"
+                          src: `https://www.youtube.com/watch?v=${detail.videos.results[0]?.key || "im99Picx79Q"
                             }`,
                         },
                       ],

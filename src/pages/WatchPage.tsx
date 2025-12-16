@@ -46,7 +46,7 @@ export function Component() {
       techOrder: ["youtube"],
       sources: [
         {
-          src: "https://youtu.be/im99Picx79Q?si=opjyySf639GYhjwx",
+          src: "https://www.youtube.com/watch?v=Ymv53hqk7BU",
           type: "video/youtube",
         },
       ],
